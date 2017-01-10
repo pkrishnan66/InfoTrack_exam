@@ -1,0 +1,6 @@
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\bin\Debug\InfoTrackExam.ProcessingLogic.dll.config
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\bin\Debug\InfoTrackExam.ProcessingLogic.dll
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\bin\Debug\InfoTrackExam.ProcessingLogic.pdb
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\obj\Debug\InfoTrackExam.ProcessingLogic.csprojResolveAssemblyReference.cache
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\obj\Debug\InfoTrackExam.ProcessingLogic.dll
+C:\InfoTrackExam\InfoTrackExam.ProcessingLogic\obj\Debug\InfoTrackExam.ProcessingLogic.pdb

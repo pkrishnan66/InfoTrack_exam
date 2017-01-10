@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackExam", "InfoTrackExam\InfoTrackExam.csproj", "{FC34728D-4BF0-43BE-A96D-DE66DB35ED08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackExam.Tests", "InfoTrackExam.Tests\InfoTrackExam.Tests.csproj", "{A8D96A6A-0DDB-4595-B97B-2C6F7F764297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoTrackExam.ProcessingLogic", "InfoTrackExam.ProcessingLogic\InfoTrackExam.ProcessingLogic.csproj", "{34711C9B-7AD1-4631-B086-214C8F9709D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC34728D-4BF0-43BE-A96D-DE66DB35ED08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC34728D-4BF0-43BE-A96D-DE66DB35ED08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC34728D-4BF0-43BE-A96D-DE66DB35ED08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC34728D-4BF0-43BE-A96D-DE66DB35ED08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D96A6A-0DDB-4595-B97B-2C6F7F764297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D96A6A-0DDB-4595-B97B-2C6F7F764297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D96A6A-0DDB-4595-B97B-2C6F7F764297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D96A6A-0DDB-4595-B97B-2C6F7F764297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34711C9B-7AD1-4631-B086-214C8F9709D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34711C9B-7AD1-4631-B086-214C8F9709D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34711C9B-7AD1-4631-B086-214C8F9709D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34711C9B-7AD1-4631-B086-214C8F9709D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

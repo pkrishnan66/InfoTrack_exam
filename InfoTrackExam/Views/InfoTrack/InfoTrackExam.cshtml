@@ -1,0 +1,75 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<script src="~/InfoTrackScripts/angular.js"></script>
+<script src="~/InfoTrackScripts/InfoTrackExam.js"></script>
+<link href="~/StyleSheets/InfoTrackStyleSheet.css" rel="stylesheet" />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InfoTrackExam</title>
+</head>
+
+<body data-ng-app="InfoTrackExam">
+    <div>
+        <div id="divResults" data-ng-controller="InfoTrackExamController">
+            <table>
+                <tr class="height"></tr>
+                <tr>
+                    <td class="width"></td>
+
+                    <td colspan="5">
+                        <h2>InfoTrack Development Project </h2>
+                    </td>
+                </tr>
+                <tr class="height"></tr>
+
+                <tr>
+                    <td class="width"></td>
+                    <td colspan="2" class="textTop">Enter Google Search Keyword
+                    </td>
+                    <td class="textSpace"></td>
+                    <td>
+                        <input type="text" data-ng-model="searchKeyword" class="textBox"/>
+                    </td>
+                </tr>
+                <tr class="height"></tr>
+
+                <tr>
+                    <td class="width"></td>
+
+                    <td colspan="2" class="textTop">Enter Google Search Url
+                    </td>
+                    <td class="textSpace"></td>
+                    <td>
+                        <input type="text" data-ng-model="searchUrl" class="textBox" />
+                    </td>
+                </tr>
+                <tr class="height"></tr>
+                <tr>
+                    <td class="width"></td>
+
+                    <td colspan="2" class="textTop"></td>
+                    <td class="textSpace"></td>
+                    <td>
+                        <input type="button" data-ng-click="VerifyUrl()" data-ng-model="verificationResult" value="Verify Google Search For Url" />
+                    </td>
+                </tr>
+                <tr class="height"></tr>
+                <tr>
+                    <td class="width"></td>
+
+                    <td colspan="5">
+                        <input type="text" class="textResult" data-ng-model="verificationResult" disabled="disabled" />
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+
+
+    </div>
+</body>
+</html>
